@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "zan-capsule": "../../lib/zanui-weapp/capsule/index",
+    "van-tab": "../../lib/tab/index",
+    "van-tabs": "../../lib/tabs/index"
+  
+  }
+}
