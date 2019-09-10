@@ -1,39 +1,29 @@
-# flower-demo
+# 花店样式小程序（费尔工坊小程序开放平台，永久免费）
 
-#### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+### 开放平台介绍
+费尔工坊开放平台，为程序员、创业者、传统业者以及对电商小程序的兴趣爱好者，提供专业的电商社交等行业解决方案。帮助大家能快速搭建、并能自定义创建稳定可信赖的小程序系统。
 
-#### 软件架构
-软件架构说明
+- **程序员**：提供开放接口，解决后端服务问题。并提供多种小程序解决模版与代码，能快速自定义小程序。也能最低成本帮助其他企业或者个人创立自己的小程序。
+- **创业者**：根据提供的开放接口，结合自己的相关创意，能快速搭建系统，避免没有技术合伙人的尴尬。
+- **传统业者**：传统业者在未知的互联网领域航行，跌跌撞撞，结果花了大价钱搞好的东西，却是不能打入市场。在费尔工坊能以最低的成本进行互联网的尝试，及时调整自己的方向。
+- **兴趣爱好者**：通过开放的接口、开源代码和后台服务，可以学习到小程序与电商的开发和业务。
 
+公司团队来自华为、欧电云、享物说等业内资深互联网企业。拥有多年互联网和电商行业积淀。曾帮助过来伊份、本来便利、诸葛修车等企业创建自己的互联网品牌。
 
-#### 安装教程
+平台的创意来自于创始人对于996的看法，生活中不只是有苟且，还有很多更加精彩的等着大家。
 
-1. xxxx
-2. xxxx
-3. xxxx
+### 项目集成方式
+1. wiki文档：[https://docs.firefac.cn/start/](https://docs.firefac.cn/start/)
+2. 控制台地址：[https://www.firefac.com](https://www.firefac.com)
 
-#### 使用说明
+### 程序截图展示
+![image](https://firefac-1259431066.picsh.myqcloud.com/p0dg8wr9gk6fr76hq1pai3o8xneobn6c.png)
 
-1. xxxx
-2. xxxx
-3. xxxx
+### 联系我们
+#### 关注公众号，体验小程序，更多开源免费好玩的小程序持续更新中
+<img src="https://firefac-1259431066.picsh.myqcloud.com/1ef798vi5r0fpxu0d7vvhxjzzsf764j9.png" style="width: 200px; "/>
 
-#### 参与贡献
+#### 加入QQ群，参与讨论
 
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+<img src="https://firefac-1259431066.picsh.myqcloud.com/fr1plbouu45p08cuvfj9t5swkj0yk6lw.png" style="width: 185px; padding:10px"/>
 
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
