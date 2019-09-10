@@ -1,5 +1,3 @@
-<wxs module="dateUtil" src="../../../utils/timeUtil.wxs"></wxs>
-
 <view class="container">
 
   <view class="h">

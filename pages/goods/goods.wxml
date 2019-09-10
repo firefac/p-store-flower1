@@ -1,3 +1,5 @@
+<wxs module="dateUtil" src="../../utils/timeUtil.wxs"></wxs>
+
 <view class="container">
   <swiper class="goodsimgs" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
     <swiper-item wx:for="{{goods.galleryList}}" wx:key="*this">
@@ -64,7 +66,7 @@
             <image src="{{item.avatar}}"></image>
             <text>{{item.nickname}}</text>
           </view>
-          <view class="time">{{item.createTime}}</view>
+          <view class="time">{{dateUtil.dateFormat(item.createTime)}}</view>
         </view>
         <view class="content">
           {{item.content}}

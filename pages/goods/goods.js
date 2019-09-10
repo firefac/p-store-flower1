@@ -533,7 +533,7 @@ Page({
           productId: checkedProduct.id
         }, "POST")
         .then(function(res) {
-          if (res.errcode == 0) {
+          if (res.errcode == '0') {
 
             // 如果storage中设置了cartId，则是立即购买，否则是购物车购买
             try {
@@ -606,7 +606,7 @@ Page({
         }, "POST")
         .then(function(res) {
           let _res = res;
-          if (_res.errcode == 0) {
+          if (_res.errcode == '0') {
             wx.showToast({
               title: '添加成功'
             });

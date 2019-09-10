@@ -1,3 +1,5 @@
+<wxs module="dateUtil" src="../../utils/timeUtil.wxs"></wxs>
+
 <view class="comments">
   <view class="h">
     <view class="item {{ showType == 0 ? 'active' : ''}}" bindtap="switchTab">
@@ -14,7 +16,7 @@
           <image src="{{item.userInfo.avatarUrl}}"></image>
           <text>{{item.userInfo.nickname}}</text>
         </view>
-        <view class="time">{{item.createTime}}</view>
+        <view class="time">{{dateUtil.dateFormat(item.createTime)}}</view>
       </view>
       <view class="comment">{{item.content}}</view>
       <view class="imgs" wx:if="{{item.picList.length > 0}}">

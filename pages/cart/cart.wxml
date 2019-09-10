@@ -27,6 +27,7 @@
               <view class="cart-goods">
                 <image class="img" src="{{item.picUrl}}"></image>
                 <view class="info">
+                  <view wx:if="{{item.soldOut == 1}}" class="soudout">已下架</view>
                   <view class="t">
                     <text class="name">{{item.goodsName}}</text>
                     <text class="num">x{{item.number}}</text>

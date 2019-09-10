@@ -49,6 +49,15 @@ Page({
           couponId: res.data.couponId,
           grouponRulesId: res.data.grouponRulesId,
         });
+      }else{
+        wx.navigateBack({
+          delta: 1
+        })
+        wx.showToast({
+          icon: 'none',
+          title: res.errmsg,
+          duration: 2500
+        });
       }
       wx.hideLoading();
     });

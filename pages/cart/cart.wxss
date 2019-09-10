@@ -169,6 +169,18 @@ page {
   border-bottom: 1px solid #f4f4f4;
 }
 
+.cart-view .item .cart-goods .soudout {
+  display: flex;
+  position: absolute;
+  float: left;
+  padding: 12rpx 30rpx;
+  margin: 20rpx 100rpx;
+  border: 2px solid red;
+  color: red;
+  font-weight: bold;
+  transform: rotate(-20deg);
+}
+
 .cart-view .item .img {
   float: left;
   height: 125rpx;

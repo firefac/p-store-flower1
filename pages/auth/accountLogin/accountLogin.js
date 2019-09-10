@@ -52,7 +52,7 @@ Page({
         'content-type': 'application/json'
       },
       success: function(res) {
-        if (res.data.errcode == 0) {
+        if (res.data.errcode == '0') {
           that.setData({
             loginErrorCount: 0
           });

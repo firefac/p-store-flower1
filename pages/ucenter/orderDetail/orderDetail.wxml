@@ -86,7 +86,7 @@
     <view class="traces" wx:for="{{expressInfo.Traces}}" wx:key="item" wx:for-item="iitem" wx:if="{{ flag }}">
       <view class="trace">
         <view class="acceptStation">{{iitem.AcceptStation}}</view>
-        <view class="acceptTime">{{dateUtil.dateFormat(iitem.AcceptTime)}}</view>
+        <view class="acceptTime">{{iitem.AcceptTime}}</view>
       </view>
     </view>
   </view>

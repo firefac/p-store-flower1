@@ -61,7 +61,7 @@ Page({
         'content-type': 'application/json'
       },
       success: function(res) {
-        if (res.data.errcode == 0) {
+        if (res.data.errcode == '0') {
           wx.showModal({
             title: '发送成功',
             content: '验证码已发送',
@@ -93,7 +93,7 @@ Page({
         'content-type': 'application/json'
       },
       success: function(res) {
-        if (res.data.errcode == 0) {
+        if (res.data.errcode == '0') {
           app.globalData.hasLogin = true;
           wx.setStorageSync('userInfo', res.data.data.userInfo);
           wx.setStorage({
